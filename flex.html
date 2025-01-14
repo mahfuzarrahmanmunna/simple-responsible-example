@@ -20,11 +20,32 @@
             align-items: center;
             justify-content: center;
         }
-
+        .container-2 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item {
+            height: 100px;
+            width: 200px;
+            border: 1px solid tomato;
+            border-radius: 5px;
+            margin: 8px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+        }
         @media screen and (max-width: 576px) {
             .container {
                 display: flex;
                 flex-direction: column;
+            }            
+        }
+        @media screen and (max-width:576px) {
+            .container-2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }            
         }
     </style>
