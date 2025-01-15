@@ -19,3 +19,15 @@ img {
     gap: 5px;
     grid-template-columns: repeat(2, 1fr);
 }
+
+/* Responsive Media Quary */
+@media screen and (max-width:576px) {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    } 
+    .square-collage {
+        grid-template-columns: 1fr;
+    }  
+}
